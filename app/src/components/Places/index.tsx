@@ -9,7 +9,6 @@ type Props = {
 }
 
 export function Places({ data }: Props) {
-  console.log('errorasdasd', data)
   const dimensions = useWindowDimensions()
   const bottomSheetRef = useRef<BottomSheet>(null)
   
