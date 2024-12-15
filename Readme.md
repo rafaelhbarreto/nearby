@@ -1,4 +1,3 @@
-````markdown
 ![NearBy App Cover](https://github.com/rafaelhbarreto/nearby/blob/main/app/assets/cover-app.png?raw=true)
 
 # NearBy App
@@ -35,6 +34,7 @@ To set up and run the NearBy app locally, ensure you have the following installe
    ```bash
    git clone https://github.com/rafaelhbarreto/nearby
    ```
+
 ````
 
 2. Navigate to the API folder:
@@ -89,3 +89,5 @@ To set up and run the NearBy app locally, ensure you have the following installe
    ```
 
 5. Open the Expo Go app on your physical device (available on the [Google Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent) and [Apple App Store](https://apps.apple.com/app/expo-go/id982107779)) and scan the QR code displayed in your terminal or browser.
+
+````
