@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react'
 import {View, Alert, Text} from 'react-native'
-import { Categories, CategoriesProps } from '@/components/Categories'
 import { api } from '@/config/axios'
+import { Categories, CategoriesProps } from '@/components/Categories'
 import { PlaceProps } from '@/components/Place'
 import { Places } from '@/components/Places'
 import MapView, { Callout, Marker } from 'react-native-maps'
 import { colors, fontFamily } from '@/styles/theme'
+import { router } from 'expo-router'
 
 export default function Home() {
   const [categories, setCategories] = useState<CategoriesProps>([])
@@ -92,7 +93,7 @@ export default function Home() {
             }}
             image={require('@/assets/pin.png')}
           >
-            <Callout>
+            <Callout onPress={() => router.navigate(`/place/${place.id}`)}>
               <View>
                 <Text
                   style={{
