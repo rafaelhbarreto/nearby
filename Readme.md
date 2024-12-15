@@ -1,6 +1,6 @@
-Aqui está a versão corrigida do README:
-
 ````markdown
+![NearBy App Cover](https://github.com/rafaelhbarreto/nearby/blob/main/app/assets/cover-app.png?raw=true)
+
 # NearBy App
 
 NearBy is a React Native application developed during Rocketseat's NLW event. The app allows users to locate nearby markets categorized by type and redeem discount coupons via QR codes.
